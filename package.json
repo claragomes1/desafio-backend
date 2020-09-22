@@ -1,0 +1,27 @@
+{
+  "name": "Desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "cytoscape-cola": "^2.4.0",
+    "express": "^4.17.1",
+    "interval-promise": "^1.4.0",
+    "mongoose": "^5.10.5",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

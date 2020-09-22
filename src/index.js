@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(require('./routes'));
 
 
-server.listen(process.env.PORT);
+server.listen(process.env.PORT || 3333);
 console.log('ok');
 exports = module.exports = app;
 

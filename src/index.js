@@ -1,4 +1,4 @@
-require("dotenv").config();
+require('dotenv').config();
 
 var express = require('express');
 var mongoose = require('mongoose');
@@ -10,7 +10,7 @@ const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
 //concat do link com a palavra digitada
-mongoose.connect(process.env.MOGO_URL,
+mongoose.connect("mongodb+srv://deploy:frdp123@cluster0.4fccf.mongodb.net/desafio?retryWrites=true&w=majority",
     {
         useNewUrlParser: true,
         useUnifiedTopology: true
